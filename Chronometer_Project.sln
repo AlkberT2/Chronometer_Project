@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.Presentation.Chrono", "Chronometer_Project\Project.Presentation.Chrono.csproj", "{9BE44730-D1D8-4D45-8DC7-7F5F7520C4D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Domain", "01. Domain", "{8E9BBDEB-634C-4F8C-A67D-2E47792A6B82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Data", "02. Data", "{2991F322-A322-4D5B-B6C9-7AE7727AAA57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Business", "03. Business", "{5B3DA50B-0419-4CF6-9039-7CBFA65E32B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Services", "04. Services", "{6956CB9E-CAC5-4086-A78F-EC94D06C5264}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Application", "05. Application", "{D7DDF59C-526F-446B-AAF6-EC088C879589}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Presentation", "06. Presentation", "{7C2C0533-84A1-498B-8B4D-D5DF966EBE8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. Testing", "07. Testing", "{B4D80405-F7AD-4ACD-97FA-EA3A6ECDBB59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Business.Watch", "Project.Business.Watch\Project.Business.Watch.csproj", "{651BF0E7-CDCD-4430-843F-5BBDFB661F4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Testing.Test_01", "Test_01\Project.Testing.Test_01.csproj", "{96351F22-ACA3-451D-8347-BD95169B9772}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BE44730-D1D8-4D45-8DC7-7F5F7520C4D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE44730-D1D8-4D45-8DC7-7F5F7520C4D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE44730-D1D8-4D45-8DC7-7F5F7520C4D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE44730-D1D8-4D45-8DC7-7F5F7520C4D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{651BF0E7-CDCD-4430-843F-5BBDFB661F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651BF0E7-CDCD-4430-843F-5BBDFB661F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651BF0E7-CDCD-4430-843F-5BBDFB661F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651BF0E7-CDCD-4430-843F-5BBDFB661F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96351F22-ACA3-451D-8347-BD95169B9772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96351F22-ACA3-451D-8347-BD95169B9772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96351F22-ACA3-451D-8347-BD95169B9772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96351F22-ACA3-451D-8347-BD95169B9772}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BE44730-D1D8-4D45-8DC7-7F5F7520C4D7} = {7C2C0533-84A1-498B-8B4D-D5DF966EBE8E}
+		{651BF0E7-CDCD-4430-843F-5BBDFB661F4B} = {5B3DA50B-0419-4CF6-9039-7CBFA65E32B8}
+		{96351F22-ACA3-451D-8347-BD95169B9772} = {B4D80405-F7AD-4ACD-97FA-EA3A6ECDBB59}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03C6FB9C-BBCB-4481-9733-2396094520D5}
+	EndGlobalSection
+EndGlobal
